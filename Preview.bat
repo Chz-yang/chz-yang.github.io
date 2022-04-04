@@ -1,1 +1,1 @@
-.\hugo server --quiet
+.\hugo server --disableFastRender
