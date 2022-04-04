@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://chz-yang.github.io/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -188,8 +188,8 @@ theme = "LoveIt"
         absoluteURL = false
         [languages.zh-cn.params.search.algolia]
           index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          appID = "C16OJXHGU0"
+          searchKey = "723fb6559e1b206686b00f1e2b0bbbb2"
       # 主页信息设置
       [languages.zh-cn.params.home]
         # RSS 文章数目
@@ -323,3 +323,14 @@ theme = "LoveIt"
   name = "杨同学"
   email = "yangchz3@mail2.sysu.edu.cn"
   link = "https://github.com/Chz-yang"
+
+# Options to make hugo output files
+# 用于 Hugo 输出文档的设置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
