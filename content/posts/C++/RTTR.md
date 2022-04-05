@@ -1,12 +1,12 @@
 ---
-title: "C++静态反射库RTTR"
+title: "C++动态反射库RTTR"
 date: 2022-04-04T22:18:09+08:00
 draft: false
 tags: [ "反射" ]
 categories: [ "C++" ]
 ---
 
-## 1 C++静态反射库——[RTTR](https://github.com/rttrorg/rttr)简介
+## 1 C++动态反射库——[RTTR](https://github.com/rttrorg/rttr)简介
 
 ## 2 基本使用
 
