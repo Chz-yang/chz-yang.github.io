@@ -80,7 +80,7 @@ theme = "LoveIt"
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       # 是否使侧边目录自动折叠展开
-      auto = false
+      auto = true
     # Code config
     # 代码配置
     [params.page.code]
@@ -152,9 +152,9 @@ theme = "LoveIt"
         weight = 5
     [languages.zh-cn.params]
       # 网站描述
-      description = "关于 LoveIt 主题"
+      description = "杨同学的个人博客"
       # 网站关键词
-      keywords = ["Theme", "Hugo"]
+      keywords = ["杨同学", "C++", "Python", "Game", "UnrealEngine"]
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
@@ -198,13 +198,13 @@ theme = "LoveIt"
         [languages.zh-cn.params.home.profile]
           enable = true
           # Gravatar 邮箱，用于优先在主页显示的头像
-          gravatarEmail = ""
+          gravatarEmail = "yangchz3@mail2.sysu.edu.cn"
           # 主页显示头像的 URL
           avatarURL = "/images/avatar.jpg"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "杨同学的个人博客"
           # 主页显示的网站副标题
-          subtitle = "要开始热爱生活，热爱工作，学习记录点点滴滴。"
+          subtitle = "要热爱生活，热爱工作，开始学习记录点点滴滴。"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
