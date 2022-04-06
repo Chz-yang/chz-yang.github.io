@@ -6,6 +6,8 @@ tags: [ "反射" ]
 categories: [ "C++" ]
 ---
 
+![](images/avatar.jpg)
+
 ## 1 C++动态反射库——[RTTR](https://github.com/rttrorg/rttr)简介
 
 ## 2 基本使用
