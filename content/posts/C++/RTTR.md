@@ -6,7 +6,7 @@ tags: [ "反射" ]
 categories: [ "C++" ]
 ---
 
-![](/images/avatar.jpg)
+![](https://cdn.jsdelivr.net/gh/Chz-yang/GitHubPageImages/avatar.jpg)
 
 ## 1 C++动态反射库——[RTTR](https://github.com/rttrorg/rttr)简介
 
