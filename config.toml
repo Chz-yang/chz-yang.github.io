@@ -135,13 +135,21 @@ theme = "LoveIt"
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
+        identifier = "favorites"
+        pre = ""
+        post = ""
+        name = "收藏的链接"
+        url = "/favorites"
+        title = ""
+        weight = 4
+      [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
         name = "关于"
         url = "/about/"
         title = ""
-        weight = 4
+        weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -149,7 +157,7 @@ theme = "LoveIt"
         name = ""
         url = "https://github.com/Chz-yang"
         title = "GitHub"
-        weight = 5
+        weight = 6
     [languages.zh-cn.params]
       # 网站描述
       description = "杨同学的个人博客"
