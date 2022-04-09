@@ -138,7 +138,7 @@ theme = "LoveIt"
         identifier = "favorites"
         pre = ""
         post = ""
-        name = "收藏的链接"
+        name = "宝藏链接"
         url = "/favorites"
         title = ""
         weight = 4
@@ -166,7 +166,7 @@ theme = "LoveIt"
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "LoveIt"
+        title = "杨同学的个人博客"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
