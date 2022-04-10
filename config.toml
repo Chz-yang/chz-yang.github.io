@@ -99,7 +99,7 @@ theme = "LoveIt"
       [params.page.comment.gitalk]
         enable = true
         owner = "Chz-yang"
-        repo = "https://github.com/Chz-yang/chz-yang.github.io.git"
+        repo = "chz-yang.github.io"
         clientId = "47d1720ba5af787a0391"
         clientSecret = "c754a7def75b5dddb077b749970413336e8c7158"
 
