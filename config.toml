@@ -90,6 +90,18 @@ theme = "LoveIt"
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
       maxShownLines = 10
+    # Comment config
+    # 评论系统设置
+    [params.page.comment]
+      enable = true
+      # Gitalk comment config (https://github.com/gitalk/gitalk)
+      # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
+      [params.page.comment.gitalk]
+        enable = true
+        owner = "Chz-yang"
+        repo = "https://github.com/Chz-yang/chz-yang.github.io.git"
+        clientId = "47d1720ba5af787a0391"
+        clientSecret = "c754a7def75b5dddb077b749970413336e8c7158"
 
 [languages]
   [languages.zh-cn]
@@ -342,3 +354,10 @@ theme = "LoveIt"
   isPlainText = true
   mediaType = "application/json"
   notAlternative = true
+
+# Sitemap config
+# 网站地图配置
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
