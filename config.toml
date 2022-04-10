@@ -94,16 +94,16 @@ theme = "LoveIt"
     # 评论系统设置
     [params.page.comment]
       enable = true
-      # Gitalk comment config (https://github.com/gitalk/gitalk)
-      # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
-      [params.page.comment.gitalk]
+      # Utterances comment config (https://utteranc.es/)
+      # Utterances comment 评论系统设置 (https://utteranc.es/)
+      [params.page.comment.utterances]
         enable = true
-        owner = "Chz-yang"
-        repo = "chz-yang.github.io"
-        clientId = "47d1720ba5af787a0391"
-        clientSecret = "c754a7def75b5dddb077b749970413336e8c7158"
-        admin = ["Chz-yang"]
-        proxy = "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
+        # owner/repo
+        repo = "Chz-yang/chz-yang.github.io"
+        issueTerm = "pathname"
+        label = "BlogComments "
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
 
 [languages]
   [languages.zh-cn]

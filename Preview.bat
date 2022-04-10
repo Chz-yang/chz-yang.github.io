@@ -14,4 +14,4 @@ if not exist "images" (
 @REM 更新所有GitHub子模块
 git submodule update --init --recursive
 
-.\hugo server --disableFastRender
+.\hugo server --disableFastRender -e production
