@@ -102,7 +102,8 @@ theme = "LoveIt"
         repo = "chz-yang.github.io"
         clientId = "47d1720ba5af787a0391"
         clientSecret = "c754a7def75b5dddb077b749970413336e8c7158"
-        createIssueManually = true
+        admin = ["Chz-yang"]
+        proxy = "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
 
 [languages]
   [languages.zh-cn]
